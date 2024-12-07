@@ -14,7 +14,7 @@ locals {
 
 module "security_group" {
   source  = "cloudposse/security-group/aws"
-  version = "1.0.1"
+  version = "2.2.0"
 
   vpc_id                = module.vpc.outputs.vpc_id
   create_before_destroy = var.security_group_create_before_destroy
