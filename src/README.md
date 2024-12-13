@@ -5,7 +5,7 @@ tags:
   - provider/aws
 ---
 
-# Component: `dms`
+# Component: `dms-replication-instance`
 
 This component provisions DMS replication instances.
 
