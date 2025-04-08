@@ -36,7 +36,7 @@ variable "availability_zone" {
 variable "engine_version" {
   type        = string
   description = "The engine version number of the replication instance"
-  default     = "3.4"
+  default     = "3.5.4"
 }
 
 variable "multi_az" {
@@ -60,7 +60,7 @@ variable "publicly_accessible" {
 variable "replication_instance_class" {
   type        = string
   description = "The compute and memory capacity of the replication instance as specified by the replication instance class"
-  default     = "dms.t2.small"
+  default     = "dms.t3.small"
 }
 
 variable "security_group_create_before_destroy" {
