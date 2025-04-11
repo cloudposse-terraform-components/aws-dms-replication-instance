@@ -1,6 +1,6 @@
 module "dms_replication_instance" {
   source  = "cloudposse/dms/aws//modules/dms-replication-instance"
-  version = "0.1.1"
+  version = "0.2.0"
 
   # https://docs.aws.amazon.com/dms/latest/userguide/CHAP_ReleaseNotes.html
   engine_version               = var.engine_version
