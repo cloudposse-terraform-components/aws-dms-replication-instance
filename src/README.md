@@ -8,7 +8,6 @@ tags:
 # Component: `dms-replication-instance`
 
 This component provisions DMS replication instances.
-
 ## Usage
 
 **Stack Level**: Regional
@@ -50,7 +49,10 @@ components:
 ```
 
 <!-- prettier-ignore-start -->
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- prettier-ignore-end -->
+
+
+<!-- markdownlint-disable -->
 ## Requirements
 
 | Name | Version |
@@ -121,12 +123,17 @@ No resources.
 |------|-------------|
 | <a name="output_dms_replication_instance_arn"></a> [dms\_replication\_instance\_arn](#output\_dms\_replication\_instance\_arn) | DMS replication instance ARN |
 | <a name="output_dms_replication_instance_id"></a> [dms\_replication\_instance\_id](#output\_dms\_replication\_instance\_id) | DMS replication instance ID |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-<!-- prettier-ignore-end -->
+<!-- markdownlint-restore -->
+
+
 
 ## References
 
-- [cloudposse/terraform-aws-components](https://github.com/cloudposse/terraform-aws-components/tree/main/modules/dms/modules/dms-replication-instance) -
-  Cloud Posse's upstream component
+
+- [cloudposse-terraform-components](https://github.com/orgs/cloudposse-terraform-components/repositories) - Cloud Posse's upstream component
+
+
+
 
 [<img src="https://cloudposse.com/logo-300x69.svg" height="32" align="right"/>](https://cpco.io/homepage?utm_source=github&utm_medium=readme&utm_campaign=cloudposse-terraform-components/aws-dms-replication-instance&utm_content=)
+
