@@ -68,7 +68,7 @@ No providers.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_dms_replication_instance"></a> [dms\_replication\_instance](#module\_dms\_replication\_instance) | cloudposse/dms/aws//modules/dms-replication-instance | 1.3.1 |
+| <a name="module_dms_replication_instance"></a> [dms\_replication\_instance](#module\_dms\_replication\_instance) | cloudposse/dms/aws//modules/dms-replication-instance | 2.0.0 |
 | <a name="module_iam_roles"></a> [iam\_roles](#module\_iam\_roles) | ../../account-map/modules/iam-roles | n/a |
 | <a name="module_security_group"></a> [security\_group](#module\_security\_group) | cloudposse/security-group/aws | 2.2.0 |
 | <a name="module_this"></a> [this](#module\_this) | cloudposse/label/null | 0.25.0 |
